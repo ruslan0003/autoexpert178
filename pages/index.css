@@ -1,0 +1,14 @@
+@import url('../styles/banner.css');
+@import url('../styles/header.css');
+@import url('../styles/page.css');
+@import url('../styles/button.css');
+@import url('../styles/services.css');
+@import url('../styles/features.css');
+@import url('../styles/certificates.css');
+@import url('../styles/footer.css');
+@import url('../styles/examples.css');
+@import url('../styles/headings.css');
+@import url('../styles/prices.css');
+@import url('../styles/contact.css');
+@import url('./../vendor/fonts/fonts.css');
+@import url('./../vendor/normalize.css');

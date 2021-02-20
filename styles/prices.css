@@ -1,0 +1,115 @@
+.prices {
+  width: 100%;
+  background: #F2F7FF;
+  margin: auto;
+  padding: 80px 25px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.prices__container {
+  max-width: 1507px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.prices__items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  grid-gap: 10px;
+}
+
+.prices__item {
+  max-width: 370px;
+  min-height: 500px;
+  position: relative;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.prices__decoration {
+  position: absolute;
+  top: 0;
+  width: 163px;
+  height: 160px;
+  background: #F2F7FF;
+  z-index: 0;
+}
+
+.prices__decoration:after{
+  content: "";
+  position: absolute;
+  bottom: -80px;
+  height: 0;
+  width: 0;
+  border-left: 82px solid transparent;
+  border-right: 82px solid transparent;
+  border-top: 80px solid #F2F7FF;
+}
+
+.prices__decoration:before{
+  content: "";
+  position: absolute;
+  bottom: -84px;
+  height: 0;
+  width: 0;
+  border-left: 81px solid transparent;
+  border-right: 85px solid transparent;
+  border-top: 83px solid #0066FF;
+  z-index: 0;
+}
+
+.prices__title {
+  font-family: 'Roboto Black';
+  font-size: 24px;
+  color: #0066FF;
+  text-align: center;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.prices__sum {
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #011B3D;
+  font-size: 24px;
+  font-family: 'Roboto Black';
+}
+
+.prices__description {
+  z-index: 1;
+  font-family: 'Inter';
+  color: #011B3D;
+  line-height: 120%;
+  font-size: 14px;
+  margin: 0;
+  padding: 15px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .prices__items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .prices__container {
+    max-width: 680px;
+  }
+}

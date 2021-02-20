@@ -1,0 +1,78 @@
+.button {
+  font-family: 'Roboto Regular';
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.button_header {
+  min-width: 254px;
+  height: 75px;
+  background-color: #011B3D;
+  margin-right: 12px;
+  position: relative;
+  overflow: hidden;
+  padding: 10px 0 10px 20px;
+  transition: background-color .3s linear;
+}
+
+.button_header:hover {
+  background-color: #FF7212;
+}
+
+.button_prices {
+  min-width: 120px;
+  padding: 25px;
+  background-color: #011B3D;
+  color: white;
+  transition: background-color .3s linear;
+}
+
+.button_prices:hover {
+  background-color: #FF7212;
+}
+
+.button_orange {
+  max-width: 218px;
+  height: 78px;
+  background-color: #FF7212;
+  color: white;
+  transition: background-color .3s linear;
+}
+
+.button_orange:hover {
+  background-color: #0066FF;
+}
+
+.button_submit {
+  margin-top: 47px;
+  align-self: center;
+  min-width: 218px;
+}
+
+.button_header:before {
+  height: 100%;
+  width: 100%;
+  background-color: #0066FF;
+  position: absolute;
+  content: "";
+  transform: rotate(110deg);
+  left: -160px;
+}
+
+.button__text {
+  color: white;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 32px;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .button_header {
+    display: none;
+  }
+}

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="vendor/normalize.css">
+  <link rel="stylesheet" href="pages/index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=9b0828df-42f5-4a2a-b969-8a258ab7977a&lang=ru_RU"
+    type="text/javascript"></script>
+  <script src="script/script.js" type="text/javascript"></script>
+  <script src="script/map.js" type="text/javascript"></script>
+
+  <title>АВТОЭКСПЕРТ</title>
+</head>
+
+<body class="page">
+  <section class="banner">
+    <header class="header">
+      <div class="header__logo-bg">
+        <img class="header__logo" src="./images/autoexpert178_logo.png">
+      </div>
+      <menu class="header__menubar">
+        <ul class="header__links">
+          <li><a class="header__link" href="#features" id="header__link">Почему мы?</a></li>
+          <li><a class="header__link" href="#prices">Услуги и цены</a></li>
+          <li><a class="header__link" href="#contact-us">Контакты</a></li>
+        </ul>
+
+        <button class="button button_header">
+          <p class="button__text">Заказать выезд &rarr;</p>
+        </button>
+      </menu>
+    </header>
+
+    <div class="banner__container">
+      <div class="banner__text-block">
+        <div class="banner__text">
+          <h1 class="banner__title">Независимая экспертиза</br>и оценка <span
+              class="banner__title banner__title_span">любых</span> транспортных средств</h1>
+          <h4 class="banner__subtitle">Работаем с 2012 года!</h4>
+        </div>
+        <button class="button button_orange">Перейти &rarr;</button>
+      </div>
+      <img class="banner__image" src="images/blue-car.png">
+    </div>
+  </section>
+
+  <section class="services">
+    <div class="services__container">
+      <img class="services__image" src="images/car_illustr.png" alt="Наши услуги">
+      <div class="services__text-block">
+        <h2 class="services__title">Все виды экспертных оценок:</h2>
+        <ul class="services__list">
+          <li class="services__item">
+            <div class="services__item-icon-container">
+              <img class="services__item-icon" src="images/service-icon-1.svg" alt="Иконка">
+            </div>
+            <div class="services__item-text-container">
+              <h4 class="services__item-title">Оценка ущерба от ДТП</h4>
+              <p class="services__item-text">Независимая экспертиза для получения выплаты по ОСАГО, КАСКО, с виновника
+                ДТП, РСА. Идеально подходит для суда, страховой компании.</p>
+            </div>
+          </li>
+
+          <li class="services__item">
+            <div class="services__item-icon-container">
+              <img class="services__item-icon" src="images/service-icon-2.svg" alt="Иконка">
+            </div>
+            <div class="services__item-text-container">
+              <h4 class="services__item-title">Утрата товарной стоимости</h4>
+              <p class="services__item-text">Утрата товарной стоимости относится к реальному ущербу наряду со стоимостью
+                ремонта и запасных частей автомобиля. Эту сумму можно взыскать со страховой по ОСАГО.</p>
+            </div>
+          </li>
+
+          <li class="services__item">
+            <div class="services__item-icon-container">
+              <img class="services__item-icon" src="images/service-icon-3.svg">
+            </div>
+            <div class="services__item-text-container">
+              <h4 class="services__item-title">Оценка рыночной стоимости</h4>
+              <p class="services__item-text">Определение стоимости транспортного средства при сделках купли-продажи, для
+                суда, в случае имущественных споров, в целях залога, переоценки, списания и т.д.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="features__container">
+      <h4 class="headings__subtitle">Почему стоит заказать экспертизу у нас?</h4>
+      <h2 class="headings__title">Наши преимущества</h3>
+
+        <div class="features__grid">
+          <div class="features__item-block">
+            <img class="features__item-image" src="images/feature01.jpg" alt="Иллюстрация">
+            <div class="features__text-block">
+              <h4 class="features__item-title">Оперативность</h4>
+              <p class="features__item-text">Выдача заключения занимает 1-2 дня после осмотра, и при этом мы не требуем
+                доплаты за срочность.</p>
+            </div>
+          </div>
+
+          <div class="features__item-block">
+            <img class="features__item-image" src="images/feature02.jpg" alt="Иллюстрация">
+            <div class="features__text-block">
+              <h4 class="features__item-title">Гарантия 100%</h4>
+              <p class="features__item-text">Мы уверены в высоком качестве нашей работы. Если суд не примет наш отчет об
+                оценке, мы вернем вам деньги.</p>
+            </div>
+          </div>
+
+          <div class="features__item-block">
+            <img class="features__item-image" src="images/feature03.jpg" alt="Иллюстрация">
+            <div class="features__text-block">
+              <h4 class="features__item-title">Любая локация</h4>
+              <p class="features__item-text">Мы подъедем в любое удобное для вас место Санкт-Петербурга и Ленобласти для
+                осмотра вашего автомобиля.</p>
+            </div>
+          </div>
+
+          <div class="features__item-block">
+            <img class="features__item-image" src="images/feature04.jpg" alt="Иллюстрация">
+            <div class="features__text-block">
+              <h4 class="features__item-title">Независимость</h4>
+              <p class="features__item-text">Мы не сотрудничаем со страховыми компаниями, что гарантирует объективность
+                нашей экспертизы.</p>
+            </div>
+          </div>
+
+          <div class="features__item-block">
+            <img class="features__item-image" src="images/feature05.jpg" alt="Иллюстрация">
+            <div class="features__text-block">
+              <h4 class="features__item-title">Легко начать</h4>
+              <p class="features__item-text">Просто позвоните нам, и мы с радостью проконсультируем вас по телефону и
+                согласуем время осмотра.</p>
+            </div>
+          </div>
+
+          <div class="features__item-block">
+            <img class="features__item-image" src="images/feature06.jpg" alt="Иллюстрация">
+            <div class="features__text-block">
+              <h4 class="features__item-title">Профессионализм</h4>
+              <p class="features__item-text">Мы занимаемся оценкой автомобилей свыше 15 лет, и наши заключения
+                соответствуют законодательству.</p>
+            </div>
+          </div>
+
+        </div>
+    </div>
+  </section>
+
+  <section class="examples">
+    <div class="examples__container">
+      <h4 class="headings__subtitle">Сравнение оценок страховой и наших экспертов</h4>
+      <h2 class="headings__title headings__title_white">Примеры работ</h3>
+
+        <div class="examples__items">
+          <div class="examples__item">
+            <img class="examples__item-image" src="images/example01.jpg" alt="Пример оценки">
+            <div class="examples__item-text">
+              <h4 class="examples__item-title">Наша оценка: <span class="examples__item-title_span">357 482 руб.</span>
+              </h4>
+              <p class="examples__item-p">Оценка страховой: 37 500 руб.</p>
+            </div>
+          </div>
+
+          <div class="examples__item">
+            <img class="examples__item-image" src="images/example02.jpg" alt="Пример оценки">
+            <div class="examples__item-text">
+              <h4 class="examples__item-title">Наша оценка: <span class="examples__item-title_span">357 482 руб.</span>
+              </h4>
+              <p class="examples__item-p">Оценка страховой: 37 500 руб.</p>
+            </div>
+          </div>
+
+          <div class="examples__item">
+            <img class="examples__item-image" src="images/example03.jpg" alt="Пример оценки">
+            <div class="examples__item-text">
+              <h4 class="examples__item-title">Наша оценка: <span class="examples__item-title_span">357 482 руб.</span>
+              </h4>
+              <p class="examples__item-p">Оценка страховой: 37 500 руб.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="prices" id="prices">
+    <h4 class="headings__subtitle">Подробный прейскурант предоставляем по запросу</h4>
+    <h2 class="headings__title">Стоимость и виды услуг</h3>
+
+      <div class="prices__container">
+        <div class="prices__items">
+          <div class="prices__item">
+            <div class="prices__decoration"></div>
+            <h3 class="prices__title">Оценка рыночной стоимости</h3>
+            <h4 class="prices__sum">от 2000 руб.</h4>
+            <p class="prices__description">Составление отчёта об оценке рыночной стоимости транспортного средства, в том
+              числе для вступления в право наследства, при разделе имущества, в случае дарения</p>
+            <button class="button button_prices">Заказать услугу</button>
+          </div>
+
+          <div class="prices__item">
+            <div class="prices__decoration"></div>
+            <h3 class="prices__title">Оценка ущерба после ДТП</h3>
+            <h4 class="prices__sum">от 4000 руб.</h4>
+            <p class="prices__description">Составление экспертного заключения об оценке стоимости восстановительного
+              ремонта транспортного средства после ДТП или иных неблагоприятных событий </p>
+            <button class="button button_prices">Заказать услугу</button>
+          </div>
+
+          <div class="prices__item">
+            <div class="prices__decoration"></div>
+            <h3 class="prices__title">Расчёт величины УТС</h3>
+            <h4 class="prices__sum">от 6000 руб.</h4>
+            <p class="prices__description">Составление экспертного заключения об оценке стоимости восстановительного
+              ремонта с расчётом величины утраты товарной стоимости (УТС)</p>
+            <button class="button button_prices">Заказать услугу</button>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="certificates">
+    <div class="certificates__container">
+      <h4 class="headings__subtitle">Наша деятельность полностью соответствует законодательству</h4>
+      <h2 class="headings__title">Дипломы и сертификаты</h3>
+
+        <div class="certificates__items">
+          <div class="certificates__item">
+            <img class="certificates__item-image" src="images/cert01.jpg" alt="Копия диплома">
+          </div>
+
+          <div class="certificates__item">
+            <img class="certificates__item-image" src="images/cert02.jpg" alt="Копия диплома">
+          </div>
+
+          <div class="certificates__item">
+            <img class="certificates__item-image" src="images/cert03.jpg" alt="Копия диплома">
+          </div>
+
+          <div class="certificates__item">
+            <img class="certificates__item-image" src="images/cert04.jpg" alt="Копия диплома">
+          </div>
+
+          <div class="certificates__item">
+            <img class="certificates__item-image" src="images/cert05.jpg" alt="Копия диплома">
+          </div>
+
+        </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact-us">
+    <h4 class="headings__subtitle">Для заказа экспертизы заполните форму ниже или просто позвоните нам</h4>
+    <h2 class="headings__title">Заказать оценку</h3>
+      <div class="contact__container">
+        <div class="contact__main">
+          <form class="contact__form" id="contact" name="contact" action="./script/form.php" method="post">
+
+            <div class="contact__form-line">
+
+              <input class="contact__input" type="text" id="name" name="name" placeholder="Имя, фамилия" form="contact"
+                required>
+
+              <input class="contact__input" type="text" id="email" name="email" placeholder="Ваш email" form="contact">
+
+            </div>
+
+            <div class="contact__form-line"><input class="contact__input" type="text" id="phone" name="phone"
+                placeholder="Ваш номер телефона" form="contact">
+
+              <input class="contact__input" type="text" id="car" name="car" placeholder="Транспортное средство"
+                form="contact">
+
+            </div>
+
+            <textarea class="contact__textarea" id="message" name="message" from="contact"
+              placeholder="Ваше сообщение"></textarea>
+
+            <button type="submit" class="button button_orange button_submit" id="submit" name="submit"
+              from="contact">Отправить &rarr;</button>
+
+          </form>
+
+          <div class="contact__data-list">
+            <div class="contact__data-item">
+              <h3 class="contact__title">Email</h3>
+              <p class="contact__value">info@autoexpert178.ru</p>
+            </div>
+
+            <div class="contact__data-item">
+              <h3 class="contact__title">Телефон:</h3>
+              <p class="contact__value">(812) 649-10-11</p>
+            </div>
+
+            <div class="contact__data-item">
+              <h3 class="contact__title">Адрес:</h3>
+              <p class="contact__value">Санкт-Петербург, Бассейная ул., 38Д (м. Парк Победы)</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="map" class="contact__map"></div>
+
+      </div>
+
+  </section>
+
+  <section class="footer">
+    <div class="footer__container">
+
+      <div class="footer__info">
+        <h3 class="headings__title headings__title_white headings_no-padding">Реквизиты</h3>
+        <ul class="footer__list">
+          <li class="footer__list-item">ООО "АВТОЭКСПЕРТ"</li>
+          <li class="footer__list-item">ОГРН: 1127847464051</li>
+          <li class="footer__list-item">ИНН: 7816545700</li>
+          <li class="footer__list-item">КПП: 781601001</li>
+        </ul>
+      </div>
+
+      <img src="images/footer_car.svg" alt="Автомобиль" class="footer__image">
+
+      <div class="footer__hours">
+        <h3 class="headings__title headings__title_white headings_no-padding">Часы работы</h3>
+        <p class="footer__text">с 9:00 до 21:00</li>
+        <p class="footer__text">без выходных</li>
+      </div>
+    </div>
+  </section>
+  <div class="footer__copyright-block">
+    <p class="footer__copyright-text">&copy; 2021 OOO "АВТОЭКСПЕРТ" || website by Ruslan Lukichev</p>
+  </div>
+
+</body>
+
+</html>

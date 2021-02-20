@@ -1,0 +1,25 @@
+.headings__title {
+  font-family: 'Roboto Black';
+  font-size: 28px;
+  text-align: center;
+  color: #011B3D;
+  margin: 0;
+  padding: 0 25px 50px 25px;
+}
+
+.headings__title_white {
+  color: white;
+}
+
+.headings__subtitle {
+  font-family: 'Roboto Regular';
+  font-size: 16px;
+  text-align: center;
+  color: #FF7212;
+  margin: 0;
+  padding: 0 0 15px 0;
+}
+
+.headings_no-padding {
+  padding: 0;
+}

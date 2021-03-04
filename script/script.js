@@ -10,3 +10,7 @@ anchors.forEach(anchor => {
   });
 });
 });
+
+function visitUrl(url) {
+  location.href=('url');
+}

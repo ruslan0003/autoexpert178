@@ -23,6 +23,7 @@
 
 .examples__item {
   background-color: white;
+  padding: 0 0 20px 0;
 }
 
 .examples__item-image {
